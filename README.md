@@ -48,5 +48,6 @@ compare_excel_files(file1_path, file2_path, output_csv_path, checking_column)
 # Read the CSV file and display the first 100 rows
 dfResult = pd.read_csv("output.csv")
 dfResult.head(100)
+```
 
 This script compares two Excel files (extracted from bussiness central web services) based on the "Object Name" column and outputs the differences to a CSV file (output.csv). The resulting CSV file is then read into a dataframe (dfResult), and the first 100 rows are displayed.
